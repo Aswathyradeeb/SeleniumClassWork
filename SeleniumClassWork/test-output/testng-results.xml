@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-14T06:59:53 BST" name="Functional Suite" finished-at="2024-06-14T07:00:22 BST" duration-ms="28696">
+    <groups>
+    </groups>
+    <test started-at="2024-06-14T06:59:53 BST" name="Functional Test" finished-at="2024-06-14T07:00:22 BST" duration-ms="28696">
+      <class name="test.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@3754a4bf]" started-at="2024-06-14T07:00:01 BST" name="setup" finished-at="2024-06-14T07:00:04 BST" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCommunityPoolSelection()[pri:0, instance:test.HomePageTest@3754a4bf]" started-at="2024-06-14T07:00:04 BST" name="VerifyCommunityPoolSelection" finished-at="2024-06-14T07:00:06 BST" duration-ms="1610" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed: not selected expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed: not selected expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at test.HomePageTest.VerifyCommunityPoolSelection(HomePageTest.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCommunityPoolSelection -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.HomePageTest@3754a4bf]" started-at="2024-06-14T07:00:06 BST" name="closeBrowser" finished-at="2024-06-14T07:00:06 BST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCommunityPoolSelection status=FAILURE method=HomePageTest.VerifyCommunityPoolSelection()[pri:0, instance:test.HomePageTest@3754a4bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@3754a4bf]" started-at="2024-06-14T07:00:06 BST" name="setup" finished-at="2024-06-14T07:00:11 BST" duration-ms="4382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyHomPageTitle()[pri:0, instance:test.HomePageTest@3754a4bf]" started-at="2024-06-14T07:00:11 BST" name="VerifyHomPageTitle" finished-at="2024-06-14T07:00:12 BST" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomPageTitle -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.HomePageTest@3754a4bf]" started-at="2024-06-14T07:00:12 BST" name="closeBrowser" finished-at="2024-06-14T07:00:12 BST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyHomPageTitle status=SUCCESS method=HomePageTest.VerifyHomPageTitle()[pri:0, instance:test.HomePageTest@3754a4bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.HomePageTest -->
+      <class name="test.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@4562e04d]" started-at="2024-06-14T06:59:53 BST" name="setup" finished-at="2024-06-14T06:59:58 BST" duration-ms="4832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserLogin()[pri:1, instance:test.LoginPageTest@4562e04d]" started-at="2024-06-14T06:59:58 BST" name="VerifyUserLogin" finished-at="2024-06-14T07:00:01 BST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLogin -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.LoginPageTest@4562e04d]" started-at="2024-06-14T07:00:01 BST" name="closeBrowser" finished-at="2024-06-14T07:00:01 BST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserLogin status=SUCCESS method=LoginPageTest.VerifyUserLogin()[pri:1, instance:test.LoginPageTest@4562e04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.LoginPageTest -->
+      <class name="test.RegisterPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.RegisterPageTest@62379589]" started-at="2024-06-14T07:00:12 BST" name="setup" finished-at="2024-06-14T07:00:15 BST" duration-ms="2646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserRegister()[pri:0, instance:test.RegisterPageTest@62379589]" started-at="2024-06-14T07:00:15 BST" name="VerifyUserRegister" finished-at="2024-06-14T07:00:22 BST" duration-ms="6898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserRegister -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.RegisterPageTest@62379589]" started-at="2024-06-14T07:00:22 BST" name="closeBrowser" finished-at="2024-06-14T07:00:22 BST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserRegister status=SUCCESS method=RegisterPageTest.VerifyUserRegister()[pri:0, instance:test.RegisterPageTest@62379589] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.RegisterPageTest -->
+    </test> <!-- Functional Test -->
+  </suite> <!-- Functional Suite -->
+</testng-results>
